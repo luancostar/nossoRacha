@@ -1,0 +1,58 @@
+.containerScroller{
+ 
+    margin-top: 100px;
+    width: 100%;
+    overflow: auto !important;
+    position: fixed;
+    padding-left: 1rem;
+}
+.containerRoll{
+    justify-content: space-evenly;
+    display: flex;
+    width: 120%;
+ 
+}
+.itemRoll p{
+    color: #000;
+}
+.itemRoll{
+    background-color: #fff;
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+   
+}
+.itemRoll:hover {
+    background-color: rgb(85,59,243);
+ 
+
+}
+.itemRoll:hover p{
+    color: #fff;
+}
+/* Para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Cor da trilha (fundo) */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor do polegar (a parte que se move) */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Para navegadores Firefox */
+body {
+    scrollbar-color:  transparent; /* Cor do polegar e da trilha */
+    scrollbar-width: thin; /* Barra de rolagem fina */
+}
+p {
+    background-color: transparent;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}

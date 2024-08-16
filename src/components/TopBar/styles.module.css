@@ -1,0 +1,21 @@
+.containerTop{
+    display: flex;
+    justify-content: center; 
+   
+}
+.itemsContainerTop{
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    gap: 2.2rem;
+    border-radius: 100px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+ }
+.topItems{
+    color: #5b5b5b;
+    background-color: transparent;
+    margin-right: 15px;
+}

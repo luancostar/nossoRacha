@@ -1,0 +1,29 @@
+.containerBottom{
+    display: flex;
+    justify-content: center; 
+   
+}
+.itemsContainerBottom{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    gap: 2.2rem;
+    font-size: 25px;
+     width: 100%;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+}
+a{
+    color: #b8b7b7;
+    text-decoration: none;
+    display: grid;
+    justify-items: center;
+}
+.itemBottomTag small {
+   font-size: 16px;
+   text-decoration: none;
+   background-color: #fff;
+}
