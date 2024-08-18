@@ -11,18 +11,18 @@ export default function BottomBar ( ) {
         <div className={styles.itemsContainerBottom}>
 
         <div className={styles.itemBottomTag}>
-        <a href=""><FontAwesomeIcon className={styles.bottomIcon} icon={faFutbol} />
+        <Link to="/"><FontAwesomeIcon className={styles.bottomIcon} icon={faFutbol} />
         <small>Início</small>
-        </a>
+        </Link>
         </div>
         <div className={styles.itemBottomTag}>
-        <Link to="/"><FontAwesomeIcon className={styles.bottomIcon} icon={faUserPlus} />
+        <Link to="#"><FontAwesomeIcon className={styles.bottomIcon} icon={faUserPlus} />
         <small>Novo Jogador</small>
         </Link>
         </div>
         <div className={styles.itemBottomTag}>
 
-        <Link to="/"><FontAwesomeIcon className={styles.bottomIcon} icon={faDice} />
+        <Link to="#"><FontAwesomeIcon className={styles.bottomIcon} icon={faDice} />
         <small>Times</small>
         </Link>
         </div>

@@ -1,0 +1,29 @@
+.textTop{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0px;
+}
+.tableMatchs td, th{
+    background-color: #fff;
+}
+.tableMatchs{
+    border-spacing: 0px;
+    font-size: 1rem;
+    width: 100%;
+}
+.contentTable{
+    margin-top: 200px;
+    padding: 40px;
+    font-size: 11px;
+    font-weight: bold;
+    
+}
+.containerTable{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    max-height: 100px;
+    overflow: auto;
+}
