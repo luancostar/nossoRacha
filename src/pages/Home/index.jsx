@@ -3,6 +3,7 @@ import BottomBar from "../../components/BottomBar"
 import TopBar from "../../components/TopBar"
 import FirstRow from "../../components/FirstRoll"
 import ContainerMatchs from "../../components/ContainerMatchs"
+import ContainerCardPlayers from "../../components/ContainerCardPlayers"
 
 import logoImage from "../../assets/logo_nobg.png"
 import logoName from  "../../assets/name_nobg.png"
@@ -22,6 +23,7 @@ export default function Home() {
        logoEquipe={logoEquipe}
        logoPlayer={logoPlayer}/>
         <ContainerMatchs/>
+        <ContainerCardPlayers/>
 
         </>
     )

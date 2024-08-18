@@ -5,7 +5,7 @@ import React from 'react'
 export default function ContainerMatchs ( ) {
     return (
         <div className={styles.contentTable}>
-            <h1>Próximos Jogos</h1>
+            <h1>Próximos Rachas:</h1>
         <div className={styles.containerTable}>
        
           <table className={styles.tableMatchs}>
