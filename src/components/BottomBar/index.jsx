@@ -16,7 +16,7 @@ export default function BottomBar ( ) {
         </Link>
         </div>
         <div className={styles.itemBottomTag}>
-        <Link to="#"><FontAwesomeIcon className={styles.bottomIcon} icon={faUserPlus} />
+        <Link to="/Player"><FontAwesomeIcon className={styles.bottomIcon} icon={faUserPlus} />
         <small>Novo Jogador</small>
         </Link>
         </div>
