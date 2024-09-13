@@ -1,0 +1,7 @@
+.containerLoading{
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    display: grid;
+    justify-content: center;
+}

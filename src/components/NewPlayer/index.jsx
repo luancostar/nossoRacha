@@ -39,10 +39,11 @@ export default function NewPlayer() {
             <div>
                 <h2>Avaliação: {rating} estrelas</h2>
             </div>
-            
-            <div style={{marginTop:'6rem', width: '100%'}}>
-                <input className='submitNewPlayer' type="submit" />
+          
+            <div style={{marginTop:'4rem', width: '100%'}}>
+                <button className={styles.submitNewPlayer} type="submit">+ Registrar</button>
             </div>
+            <div className={styles.cardBgBottom}></div>
         </div>
     );
 }
