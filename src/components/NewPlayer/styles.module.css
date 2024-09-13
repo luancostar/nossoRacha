@@ -44,6 +44,7 @@
 }
 .star:focus {
     outline: none;
+    box-shadow: none;
 }
 .star {
     user-select: none;
@@ -53,7 +54,7 @@
     position: relative;
     display: inline-block;
     outline: none;
-
+    box-shadow: none;
 }
 
 .star::before {
