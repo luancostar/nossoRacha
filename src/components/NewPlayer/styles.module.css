@@ -42,13 +42,18 @@
     display: flex;
     justify-content: center;
 }
-
+.star:focus {
+    outline: none;
+}
 .star {
+    user-select: none;
+    cursor: pointer;
     font-size: 4rem;
     color: #ddd;
-    cursor: pointer;
     position: relative;
     display: inline-block;
+    outline: none;
+
 }
 
 .star::before {
